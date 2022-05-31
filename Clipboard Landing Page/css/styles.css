@@ -1,0 +1,183 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+  color: 	#4C545D;
+}
+
+h2, h3 {
+  font-weight: 400;
+  color: #4C545D;
+}
+
+p {
+  line-height: 1.5;
+  color: #9FABB2;
+  padding: 10px 0px;
+}
+
+.logo {
+  width: 9%;
+}
+
+.btn {
+  margin: 1% 1% 1% 0;
+}
+
+.btn-ios {
+  border-radius: 20px;
+  background-color: #26BAA4;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-mac {
+  border-radius: 20px;
+  background-color: #6173FF;
+  font-weight: 600;
+  border: none;
+}
+
+.row {
+  margin-top: 60px;
+}
+
+/* Logo Header Section */
+
+#logo-header {
+  background: url("images/bg-header-desktop.png");
+  padding: 5% 10%;
+}
+
+/*Title Section*/
+
+#title {
+  padding: 5% 10%;
+}
+
+/* Features 1 Section */
+
+#features-1 {
+  padding: 5% 10%;
+}
+
+.image-computer {
+  width: 100%;
+}
+
+.feature-container {
+  margin: 15% 0px;
+}
+
+.feature-title {
+  text-align: left;
+}
+
+.feature-text{
+  text-align:left;
+}
+
+/* FEatures 2 Section */
+
+#features-2 {
+  padding: 5% 10%;
+}
+
+.image-devices {
+  width: 50%;
+    margin-top: 60px;
+}
+
+/* Features 3 Section */
+
+#features-3 {
+  padding: 5% 10%;
+}
+
+/* Press Section */
+
+#press {
+  padding: 5% 10%;
+}
+
+.press-logo {
+  margin: 20px 40px;
+}
+
+/* CTA Section */
+
+#cta {
+  padding: 5% 10%;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color:#DFDFDE;
+  padding: 3% 10%;
+}
+
+.logo-footer {
+  width: 30%;
+  text-align: left;
+  margin: auto;
+}
+
+.link-footer {
+  text-align: left;
+  line-height: 0;
+}
+
+.social-logo {
+  margin: 20px 10px;
+  text-align: right;
+}
+
+
+@media (max-width: 1020px){
+
+    /* #features-1 {
+      text-align: center;
+    }
+
+    #footer {
+      text-align: center;
+    } */
+
+    .image-computer {
+      width: 90%;
+    }
+
+    .image-devices {
+      width: 90%;
+    }
+
+    .feature-title {
+      text-align: center;
+    }
+
+    .feature-text{
+      text-align:center;
+    }
+
+    .logo {
+      width: 50%;
+    }
+
+    .logo-footer {
+      width: 20%;
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    .link-footer {
+      text-align: center;
+    }
+
+    .social-logo {
+      text-align: center;
+    }
+}
