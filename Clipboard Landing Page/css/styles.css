@@ -48,7 +48,7 @@ p {
 /* Logo Header Section */
 
 #logo-header {
-  background: url("images/bg-header-desktop.png");
+  background-image: url("images/bg-header-desktop.png");
   padding: 5% 10%;
 }
 
