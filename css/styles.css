@@ -1,6 +1,9 @@
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   text-align: center;
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 100% 15%;
 }
 
 h1 {
